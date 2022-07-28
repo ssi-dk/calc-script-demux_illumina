@@ -1,0 +1,15 @@
+.env
+.venv
+.vscode
+/output/*
+!/output/.gitkeep
+/input/*
+!/input/example
+notebooks/.ipynb_checkpoints
+*.env
+*.service
+*.timer
+!demux_illumina.template.timer
+!demux_illumina.template.service
+!demux_illumina.default.env
+!conda.env.yml
